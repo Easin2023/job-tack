@@ -1,0 +1,41 @@
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /* background-color: #b61924; */
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.sticky {
+  position: sticky;
+  background: #fff;
+  padding: 2px 0px 10px;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  transition: background-color 0.8s, top 0.5s;
+}
+.shareBtn {
+  border-style: solid;
+  border-color: black;
+  color: black;
+}
+.shareBtn:hover {
+  background-color: #2042b6;
+  color: white;
+}
+.reportBtn {
+  border-style: solid;
+  border-color: black;
+  color: black;
+}
+.reportBtn:hover {
+  background-color: #2042b6;
+  color: white;
+}
+.menuIcon {
+  color: black;
+}
