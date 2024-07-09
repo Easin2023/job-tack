@@ -9,6 +9,7 @@
   background-position: 50% 50%;
 }
 
+
 .sticky {
   position: sticky;
   background: #fff;
@@ -38,4 +39,21 @@
 }
 .menuIcon {
   color: black;
+}
+
+/* table css */
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f3f3f3;
 }
