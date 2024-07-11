@@ -9,20 +9,25 @@
   background-position: 50% 50%;
 }
 
-
 .sticky {
   position: sticky;
   background: #fff;
-  padding: 2px 0px 10px;
+  padding: 20px 0px 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 100px;
   top: 0;
   width: 100%;
   z-index: 1000;
   transition: background-color 0.8s, top 0.5s;
 }
+.notStyle {
+  background-color: #2042b6;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 .shareBtn {
   border-style: solid;
   border-color: black;
-  color: black;
+  color: white;
 }
 .shareBtn:hover {
   background-color: #2042b6;
@@ -31,7 +36,7 @@
 .reportBtn {
   border-style: solid;
   border-color: black;
-  color: black;
+  color: white;
 }
 .reportBtn:hover {
   background-color: #2042b6;
@@ -39,6 +44,9 @@
 }
 .menuIcon {
   color: black;
+}
+.normalMenuIcon {
+  color: white;
 }
 
 /* table css */
@@ -56,4 +64,13 @@ th {
 
 tr:nth-child(even) {
   background-color: #f3f3f3;
+}
+
+/*  */
+.slanted-shape {
+  width: 30px;
+  height: 60px;
+  background: transparent;
+  border: 2px solid black;
+  transform: skew(-30deg);
 }
